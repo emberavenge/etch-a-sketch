@@ -1,19 +1,37 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
-.container{
+.center {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+button{
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #11a871;
+    cursor: pointer;
+    color: white;
+    font-size: 1.3em;
+    padding: 8px 18px;
+}
+
+button:hover{
+    background-color: #08724b;
+
+}
+
+.buttons {
+    padding-bottom: 0.8vh;
+}
+.container{
     border: 3px solid black;
     width: 450px;
     height: 450px;
 }
-
-.box{
-    width: 50px;
-    height: 50px;
-    flex-wrap: wrap; 
-}
-
-.box:hover{
-    background-color: black;
-}
-
