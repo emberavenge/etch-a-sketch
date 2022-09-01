@@ -1,0 +1,19 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    width: 450px;
+    height: 450px;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    flex-wrap: wrap; 
+}
+
+.box:hover{
+    background-color: black;
+}
+
