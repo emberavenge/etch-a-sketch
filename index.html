@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Etch-a-sketch </title>
-    <link rel="stylesheet" href="styles.css" />
-    <script src="app.js" defer></script>
-</head>
-<body>
-    <div class="center">
-        <div class="buttons">
-            <button>16x16</button>
-            <button>32x32</button>
-            <button>64x64</button>
-            <button>98x98</button>
 
-        </div>
-        <div class="container">
-        </div> 
-    </div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etch-a-sketch </title>
+</head>
+
+<body>
+  <h1>Etch-a-sketch</h1>
+  <div class="buttons">
+    <button class="generate" onclick="
+     let playGrid = prompt('Enter a number between 1-100');
+     let num = parseInt(playGrid); generateGrid(num);">Generate</button>
+
+  </div>
+
+  <div class="container">
+  </div>
 </body>
+
+</html>
 </html>
