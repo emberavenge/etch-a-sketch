@@ -11,7 +11,7 @@ h1 {
   color: white;
   font-size: 3.7rem;
   font-family: "Manrope", sans-serif;
-   padding: 1rem;
+  padding: 2rem 0;
 }
 
 body {
@@ -19,26 +19,29 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 100vh;
+  padding-bottom: 2rem;
   background-image: linear-gradient(to right, #141e30, #243b55);
  
 }
 
 .container {
-  width: 50vw;
-  height: 50vw;
+  width: 50%;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
-  border: solid black 3px;
+  
   background-color: white;
   font-weight: 400;
   padding: 1rem;
 }
 
+
 button {
   background-color: #dea01e;
   border: none;
   color: #0a0a0a;
-  padding: 1rem 2rem;
+  padding: 1rem 1.8rem;
   text-align: center;
   text-decoration: none;
   font-size: 1.8rem;
@@ -55,6 +58,7 @@ button:hover {
 .buttons {
   display: flex;
   gap: 1rem;
-  padding-bottom: 1.4rem;
+  padding-bottom: 2rem;
 }
+
 
