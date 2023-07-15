@@ -7,6 +7,6 @@ In this project I was assigned to make an Etch-a-sketch program in the web brows
 Simply click on the button that has the text "Generate" on it, and then the big square will create little squares, and when your mouse hovers over the little squares, they should turn black. 
 
 #### TODO
+- ~Add a clear grid function~
 - Add an eraser function
-- Add a clear grid function
 - The ability to be able to draw in Etch-a-sketch while holding the mouse button down
